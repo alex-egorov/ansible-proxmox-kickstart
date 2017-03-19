@@ -47,7 +47,7 @@
     private: yes
   - name: "ks_url"
     prompt: "Kickstart URL? "
-    default: "https://raw.githubusercontent.com/badrazor/proxmox/master/http/centos7.cfg"
+    default: "https://raw.githubusercontent.com/alex-egorov/ansible-proxmox-kickstart/master/http/centos7.cfg"
     private: no
   tasks:
   - name: Random port number

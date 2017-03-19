@@ -14,7 +14,8 @@
         [ "-m", "1024M" ],
         [ "-enable-kvm", "" ],
         [ "-display", "" ],
-        [ "-redir", "" ]
+        [ "-redir", "" ],
+        [ "-vnc", "127.0.0.1:87" ],
       ],
       "disk_size": 8000,
       "format": "qcow2",
